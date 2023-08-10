@@ -1,0 +1,46 @@
+{
+  "name": "tenup-component-library",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://project-domain.tld",
+  "repository": {
+    "type": "git",
+    "url": "https://project-git-repo.tld"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plop": "plop",
+    "lint-staged": "lint-staged"
+  },
+  "workspaces": [
+    "packages/*",
+    "project/*"
+  ],
+  "author": {
+    "name": "Daine Mawer",
+    "email": "hello@dainemawer.com",
+    "url": "https://dainemawer.com",
+    "role": "developer"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.7",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "alex": "^11.0.0",
+    "eslint": "^8.46.0",
+    "husky": "^8.0.3",
+    "jest": "^29.6.2",
+    "lerna": "^7.1.4",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.1",
+    "stylelint": "^15.10.2",
+    "typescript": "^5.1.6"
+  }
+}
